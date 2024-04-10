@@ -14,7 +14,7 @@ app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json())
 
 const server = app.get('/checkAdmin', (next, req, res)=> {
-  res.send("hehe");
+  res.send("hoho");
 })
 
 app.use('/api/v1/todos', router);
